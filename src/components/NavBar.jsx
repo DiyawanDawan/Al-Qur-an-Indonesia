@@ -63,9 +63,9 @@ const NavBar = () => {
 
   return (
     <div>
-      <header className="bg-indigo-800 shadow-2xl">
+      <header className="bg-indigo-800 shadow-2xl z-40">
         <nav
-          className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+          className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8  z-20"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
